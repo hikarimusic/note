@@ -5,4 +5,4 @@ Find n pairs of integers (a1, b1), (a2, b2), ..., (an, bn) which maximize the su
 and satisfy the following two conditions:
 
 1. xi <= ai <= bi <= yi for all i in {1, 2, ..., n}
-2. If xj - yi >= 0, then xj - yi >= zj - zi for all i, j in {1, 2, ..., n}
+2. If aj - bi >= 0, then aj - bi >= zj - zi for all i, j in {1, 2, ..., n}
