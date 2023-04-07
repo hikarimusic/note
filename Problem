@@ -1,0 +1,6 @@
+Given n pairs of integers (x1, y1), (x2, y2), ..., (xn, yn) and n integers z1, z2, ..., zn.
+Find n pairs of integers (a1, b1), (a2, b2), ..., (an, bn) which maximize the sum (b1-a1) + (b2-a2) + ... + (bn-an)
+and satisfy the following two conditions:
+
+1. xi <= ai <= bi <= yi for all i in {1, 2, ..., n}
+2. If xj - yi >= 0, then xj - yi >= zj - zi for all i, j in {1, 2, ..., n}
